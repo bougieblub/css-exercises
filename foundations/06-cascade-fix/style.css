@@ -8,31 +8,28 @@ body{
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
+/* Moved .para {} before .small-para{} b/c the font size of 14 will take precedence,
+even if the class="para small-para" 
+Remember, the latest class value of same specificity will take priority. */
 .para {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+/* Added .button */
+.button.confirm  {
+  background: green;
+  color: white;
+  font-weight: bold;
 }
 
 div.text {
@@ -40,3 +37,11 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+/* Moved this on the bottom, and added div.child to child */
+div.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
