@@ -1,0 +1,12 @@
+/* Completed 9.26.2022 */
+
+/* Applies to both avatar and proportioned */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
