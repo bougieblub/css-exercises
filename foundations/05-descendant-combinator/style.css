@@ -1,0 +1,31 @@
+/* Completed 9.26.2022 */
+
+/* Descendant selectors have spaces */
+ 
+/* .container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* div p {
+    background-color: green;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* div .text {
+    background-color: blue;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+.container p {
+    background-color: orange;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
