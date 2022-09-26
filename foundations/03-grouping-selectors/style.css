@@ -1,0 +1,17 @@
+/* Completed 9.26.22 */
+
+.clickme {
+    color: white;
+    background-color: black;
+}
+
+.noclickme {
+    color: rgb(236, 188, 188);
+    background-color: yellow;
+}
+
+.clickme,
+.noclickme {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
